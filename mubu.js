@@ -8,7 +8,7 @@
 群1077223830
 *******************************
 [rewrite_local]
-^http[s]?:\/\/api2.mubu.com\/v3\/api\/user\/current_user.+$ url script-response-body mubu.js
+^http[s]?:\/\/api2.mubu.com\/v3\/api\/user\/current_user.+$ url script-response-body https://raw.githubusercontent.com/Dawnaaaa/Qx/main/mubu.js
 [mitm] 
 hostname = *.mubu.*
 *******************************
