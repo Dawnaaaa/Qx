@@ -10,7 +10,7 @@
 [rewrite_local]
 ^http[s]?:\/\/api2.mubu.com\/v3\/api\/user\/current_user.+$ url script-response-body https://raw.githubusercontent.com/Dawnaaaa/Qx/main/mubu.js
 [mitm] 
-hostname = *api2.mubu.com*
+hostname = api2.mubu.com
 *******************************
 Surge
 
@@ -18,7 +18,7 @@ Surge
 ^http[s]?:\/\/api2.mubu.com\/v3\/api\/user\/current_user.+$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Dawnaaaa/Qx/main/mubu.js
 
 [MITM]
-hostname = *api2.mubu.com*
+hostname = api2.mubu.com
 
 *******************************/
 var obj = JSON.parse($response.body);
