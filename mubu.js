@@ -12,3 +12,4 @@ hostname = api2.mubu.com
 var obj = JSON.parse($response.body);
     obj.data.level= 2;
     $done({body: JSON.stringify(obj)});
+    $notify('幕布-Crark')
