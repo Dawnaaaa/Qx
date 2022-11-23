@@ -27,8 +27,9 @@ if (url.indexOf(vip) != -1) {
     obj.data.isExpire = false;
     obj.data.active = true;
     obj.data.payTime = 1660006006;
-
+    obj.data.paymentSource = 9;
 	body = JSON.stringify(obj);
+	$notify('cubox-Crark');
 }
 
 
