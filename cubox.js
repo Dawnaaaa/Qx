@@ -26,10 +26,9 @@ if (url.indexOf(vip) != -1) {
     obj.data.expireTime = "2099-09-12T23:50:23+08:00";
     obj.data.isExpire = false;
     obj.data.active = true;
-    obj.data.payTime = 1660006006;
+    obj.data.payTime = "2022-09-12T23:50:23+08:00";
     obj.data.paymentSource = 9;
 	body = JSON.stringify(obj);
-	$notify('cubox-Crark');
 }
 
 
